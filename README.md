@@ -1,2 +1,4 @@
 # IoTWallSwitch
-An open-source IoT Wall Switch based on ESP device.
+An open-source IoT Wall Switch based on ESP device. I based this project on Xoseperez's [espurna-board project](https://github.com/xoseperez/espurna-board).
+
+I aim this project to be a foundation of many small projects that ran on small batteries.
