@@ -3,6 +3,9 @@ An open-source IoT Wall Switch based on ESP device. I based this project on Xose
 
 I aim this project to be a foundation of many small projects that ran on tap power supply.
 
+## Block Diagram
+![Block Diagram](Docs/block-diagram-1.png)
+
 ## Primary Functionalities (User perspective):
 1. Act as an on/off switch of an alternating or direct current load; the method of switching shall be done via physical access (e.g. button, capacitive touch) or via wirelessly (web interface, telnet, etc.)
 2. Has the capability to measure the power consumed by the load, and to report it to an external entity (cloud, local household server).
