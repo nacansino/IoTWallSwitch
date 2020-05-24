@@ -1,0 +1,15 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP NE555DR
+D Single Precision Timer
+K
+F http://www.ti.com/lit/ds/symlink/ne555.pdf
+$ENDCMP
+#
+$CMP HLW8012
+D single phase energy monitor chip
+K
+F https://www.datasheet4u.com/datasheet-parts/HLW8012-datasheet.php?id=1157559
+$ENDCMP
+#
+#End Doc Library

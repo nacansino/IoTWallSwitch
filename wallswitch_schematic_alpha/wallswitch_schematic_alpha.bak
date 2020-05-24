@@ -1,0 +1,94 @@
+EESchema Schematic File Version 4
+LIBS:wallswitch_schematic_alpha-cache
+EELAYER 29 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 1 1
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L Converter_ACDC:HLK-PM01 PS?
+U 1 1 5EC92670
+P 2050 2000
+F 0 "PS?" H 2050 2325 50  0000 C CNN
+F 1 "HLK-PM01" H 2050 2234 50  0000 C CNN
+F 2 "Converter_ACDC:Converter_ACDC_HiLink_HLK-PMxx" H 2050 1700 50  0001 C CNN
+F 3 "http://www.hlktech.net/product_detail.php?ProId=54" H 2450 1650 50  0001 C CNN
+	1    2050 2000
+	1    0    0    -1  
+$EndComp
+$Comp
+L RF_Module:ESP32-WROOM-32D U?
+U 1 1 5EC92A45
+P 7850 2950
+F 0 "U?" H 7850 4531 50  0000 C CNN
+F 1 "ESP32-WROOM-32D" H 7850 4440 50  0000 C CNN
+F 2 "RF_Module:ESP32-WROOM-32" H 7850 1450 50  0001 C CNN
+F 3 "https://www.espressif.com/sites/default/files/documentation/esp32-wroom-32d_esp32-wroom-32u_datasheet_en.pdf" H 7550 3000 50  0001 C CNN
+	1    7850 2950
+	1    0    0    -1  
+$EndComp
+$Comp
+L Relay:SANYOU_SRD_Form_C K?
+U 1 1 5EC90E60
+P 4400 3100
+F 0 "K?" H 4830 3146 50  0000 L CNN
+F 1 "SANYOU_SRD_Form_C" H 4830 3055 50  0000 L CNN
+F 2 "Relay_THT:Relay_SPDT_SANYOU_SRD_Series_Form_C" H 4850 3050 50  0001 L CNN
+F 3 "http://www.sanyourelay.ca/public/products/pdf/SRD.pdf" H 4400 3100 50  0001 C CNN
+	1    4400 3100
+	1    0    0    -1  
+$EndComp
+$Comp
+L Regulator_Linear:AMS1117-3.3 U?
+U 1 1 5EC93B19
+P 5600 1400
+F 0 "U?" H 5600 1642 50  0000 C CNN
+F 1 "AMS1117-3.3" H 5600 1551 50  0000 C CNN
+F 2 "Package_TO_SOT_SMD:SOT-223-3_TabPin2" H 5600 1600 50  0001 C CNN
+F 3 "http://www.advanced-monolithic.com/pdf/ds1117.pdf" H 5700 1150 50  0001 C CNN
+	1    5600 1400
+	1    0    0    -1  
+$EndComp
+$Comp
+L Transistor_FET:2N7000 Q?
+U 1 1 5EC95E58
+P 3800 3850
+F 0 "Q?" H 4006 3896 50  0000 L CNN
+F 1 "2N7000" H 4006 3805 50  0000 L CNN
+F 2 "Package_TO_SOT_THT:TO-92_Inline" H 4000 3775 50  0001 L CIN
+F 3 "https://www.fairchildsemi.com/datasheets/2N/2N7000.pdf" H 3800 3850 50  0001 L CNN
+	1    3800 3850
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector:Screw_Terminal_01x02 J?
+U 1 1 5EC99126
+P 3100 1500
+F 0 "J?" H 3018 1175 50  0000 C CNN
+F 1 "Screw_Terminal_01x02" H 3018 1266 50  0000 C CNN
+F 2 "" H 3100 1500 50  0001 C CNN
+F 3 "~" H 3100 1500 50  0001 C CNN
+	1    3100 1500
+	-1   0    0    1   
+$EndComp
+$Comp
+L Connector:Screw_Terminal_01x03 J?
+U 1 1 5EC99D8E
+P 3150 2750
+F 0 "J?" H 3230 2792 50  0000 L CNN
+F 1 "Screw_Terminal_01x03" H 3230 2701 50  0000 L CNN
+F 2 "" H 3150 2750 50  0001 C CNN
+F 3 "~" H 3150 2750 50  0001 C CNN
+	1    3150 2750
+	1    0    0    -1  
+$EndComp
+$EndSCHEMATC
