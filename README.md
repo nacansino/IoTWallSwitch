@@ -12,6 +12,11 @@ I aim this project to be a foundation of many small projects that ran on tap pow
 3. Support more than one wireless protocol for redundancy
 4. Has the capability to update functionality after deployment without physical access (over-the-air or OTA updates).
 
+## Tech Stack
+- Schematic and Layout: KiCAD
+- Toolchain: TBA, currently thinking of building over ESP-IDF
+- Unit Testing: CppUTest
+
 ## Applications:
 - Generic Smart Switch for any load below 10A
 - Household and industrial lighting
