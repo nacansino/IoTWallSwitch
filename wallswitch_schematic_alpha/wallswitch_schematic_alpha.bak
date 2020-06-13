@@ -1263,8 +1263,8 @@ Text Label 1250 5200 2    50   ~ 0
 RTS
 Text Label 1250 5100 2    50   ~ 0
 5V_DBG
-Text Notes 800  7400 0    50   ~ 0
-Auto program\nDTR RTS->EN IO0\n   1      1     1     1\n   0      0     1     1\n   1      0     0     1\n   0      1     1     0
+Text Notes 700  7400 0    50   ~ 0
+Auto program:\nDTR   RTS | EN   IO0\n1      1     1     1\n0      0     1     1\n1      0     0     1\n0      1     1     0
 Wire Wire Line
 	950  4800 1250 4800
 $Comp
@@ -1617,5 +1617,5 @@ Wire Wire Line
 Wire Wire Line
 	6700 900  7300 900 
 Text Notes 650  2450 0    100  ~ 0
-To add:\n1. Capacitive Touch / Manual Switch
+To add:\n1. Capacitive Touch / Manual Switch\n2. Footprint for discrete components
 $EndSCHEMATC
