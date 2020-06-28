@@ -174,19 +174,19 @@ X ~ 2 0 -150 50 U 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# Diode_1N4148
+# Diode_1N4148W
 #
-DEF Diode_1N4148 D 0 40 N N 1 F N
+DEF Diode_1N4148W D 0 40 N N 1 F N
 F0 "D" 0 100 50 H V C CNN
-F1 "Diode_1N4148" 0 -100 50 H V C CNN
-F2 "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal" 0 -175 50 H I C CNN
+F1 "Diode_1N4148W" 0 -100 50 H V C CNN
+F2 "Diode_SMD:D_SOD-123" 0 -175 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
-ALIAS 1N4448 1N4149 1N4151 1N914 BA243 BA244 BA282 BA283 BAV17 BAV18 BAV19 BAV20 BAV21 BAW75 BAW76 BAY93
+ALIAS 1N4148W BAV16W 1N4448W MMSD4148
 $FPLIST
- D*DO?35*
+ D*SOD?123*
 $ENDFPLIST
 DRAW
-P 2 0 1 8 -50 50 -50 -50 N
+P 2 0 1 10 -50 50 -50 -50 N
 P 2 0 1 0 50 0 -50 0 N
 P 4 0 1 8 50 50 50 -50 -50 0 50 50 N
 X K 1 -150 0 100 R 50 50 1 1 P
@@ -480,6 +480,150 @@ X GND 5 1000 -300 200 L 50 50 0 0 U
 X CF 6 1000 -200 200 L 50 50 0 0 U
 X CF1 7 1000 -100 200 L 50 50 0 0 U
 X SEL 8 1000 0 200 L 50 50 0 0 U
+ENDDRAW
+ENDDEF
+#
+# XLAB_Resistor_R_0_―_1608m
+#
+DEF XLAB_Resistor_R_0_―_1608m R 0 0 N Y 1 F N
+F0 "R" 125 100 50 H V L CNN
+F1 "XLAB_Resistor_R_0_―_1608m" 550 150 50 H I L CNN
+F2 "R_0603_1608Metric" 550 50 50 H I L CNN
+F3 "datasheet_here" 550 -50 50 H I L CNN
+F4 "Resistor SMD 0 ― 1608 1A" 550 -150 50 H I L CNN "Description"
+F5 "1A" 550 -250 50 H I L CNN "Power Rating"
+F6 "―" 550 -350 50 H I L CNN "Tolerance"
+DRAW
+T 0 175 0 50 0 0 0 0 Normal 0 C C
+S 50 50 300 -50 0 1 0 N
+X ~ 1 0 0 50 R 50 50 0 0 P
+X ~ 2 350 0 50 L 50 50 0 0 P
+ENDDRAW
+ENDDEF
+#
+# XLAB_Resistor_R_1.00k_±1%_1608m
+#
+DEF XLAB_Resistor_R_1.00k_±1%_1608m R 0 0 N Y 1 F N
+F0 "R" 125 100 50 H V L CNN
+F1 "XLAB_Resistor_R_1.00k_±1%_1608m" 550 150 50 H I L CNN
+F2 "R_0603_1608Metric" 550 50 50 H I L CNN
+F3 "datasheet_here" 550 -50 50 H I L CNN
+F4 "Resistor SMD 1.00k ±1% 1608 0.125W" 550 -150 50 H I L CNN "Description"
+F5 "0.125W" 550 -250 50 H I L CNN "Power Rating"
+F6 "±1%" 550 -350 50 H I L CNN "Tolerance"
+DRAW
+T 0 175 0 50 0 0 0 1.00k Normal 0 C C
+S 50 50 300 -50 0 1 0 N
+X ~ 1 0 0 50 R 50 50 0 0 P
+X ~ 2 350 0 50 L 50 50 0 0 P
+ENDDRAW
+ENDDEF
+#
+# XLAB_Resistor_R_10k_±5%_1608m
+#
+DEF XLAB_Resistor_R_10k_±5%_1608m R 0 0 N Y 1 F N
+F0 "R" 125 100 50 H V L CNN
+F1 "XLAB_Resistor_R_10k_±5%_1608m" 550 150 50 H I L CNN
+F2 "R_0603_1608Metric" 550 50 50 H I L CNN
+F3 "datasheet_here" 550 -50 50 H I L CNN
+F4 "Resistor SMD 10k ±5% 1608 0.1W" 550 -150 50 H I L CNN "Description"
+F5 "0.1W" 550 -250 50 H I L CNN "Power Rating"
+F6 "±5%" 550 -350 50 H I L CNN "Tolerance"
+DRAW
+T 0 175 0 50 0 0 0 10k Normal 0 C C
+S 50 50 300 -50 0 1 0 N
+X ~ 1 0 0 50 R 50 50 0 0 P
+X ~ 2 350 0 50 L 50 50 0 0 P
+ENDDRAW
+ENDDEF
+#
+# XLAB_Resistor_R_12k_±5%_1608m
+#
+DEF XLAB_Resistor_R_12k_±5%_1608m R 0 0 N Y 1 F N
+F0 "R" 125 100 50 H V L CNN
+F1 "XLAB_Resistor_R_12k_±5%_1608m" 550 150 50 H I L CNN
+F2 "R_0603_1608Metric" 550 50 50 H I L CNN
+F3 "datasheet_here" 550 -50 50 H I L CNN
+F4 "Resistor SMD 12k ±5% 1608 0.1W" 550 -150 50 H I L CNN "Description"
+F5 "0.1W" 550 -250 50 H I L CNN "Power Rating"
+F6 "±5%" 550 -350 50 H I L CNN "Tolerance"
+DRAW
+T 0 175 0 50 0 0 0 12k Normal 0 C C
+S 50 50 300 -50 0 1 0 N
+X ~ 1 0 0 50 R 50 50 0 0 P
+X ~ 2 350 0 50 L 50 50 0 0 P
+ENDDRAW
+ENDDEF
+#
+# XLAB_Resistor_R_15k_±5%_1608m
+#
+DEF XLAB_Resistor_R_15k_±5%_1608m R 0 0 N Y 1 F N
+F0 "R" 125 100 50 H V L CNN
+F1 "XLAB_Resistor_R_15k_±5%_1608m" 550 150 50 H I L CNN
+F2 "R_0603_1608Metric" 550 50 50 H I L CNN
+F3 "datasheet_here" 550 -50 50 H I L CNN
+F4 "Resistor SMD 15k ±5% 1608 0.1W" 550 -150 50 H I L CNN "Description"
+F5 "0.1W" 550 -250 50 H I L CNN "Power Rating"
+F6 "±5%" 550 -350 50 H I L CNN "Tolerance"
+DRAW
+T 0 175 0 50 0 0 0 15k Normal 0 C C
+S 50 50 300 -50 0 1 0 N
+X ~ 1 0 0 50 R 50 50 0 0 P
+X ~ 2 350 0 50 L 50 50 0 0 P
+ENDDRAW
+ENDDEF
+#
+# XLAB_Resistor_R_1k_±5%_1608m
+#
+DEF XLAB_Resistor_R_1k_±5%_1608m R 0 0 N Y 1 F N
+F0 "R" 125 100 50 H V L CNN
+F1 "XLAB_Resistor_R_1k_±5%_1608m" 550 150 50 H I L CNN
+F2 "R_0603_1608Metric" 550 50 50 H I L CNN
+F3 "datasheet_here" 550 -50 50 H I L CNN
+F4 "Resistor SMD 1k ±5% 1608 0.125W" 550 -150 50 H I L CNN "Description"
+F5 "0.125W" 550 -250 50 H I L CNN "Power Rating"
+F6 "±5%" 550 -350 50 H I L CNN "Tolerance"
+DRAW
+T 0 175 0 50 0 0 0 1k Normal 0 C C
+S 50 50 300 -50 0 1 0 N
+X ~ 1 0 0 50 R 50 50 0 0 P
+X ~ 2 350 0 50 L 50 50 0 0 P
+ENDDRAW
+ENDDEF
+#
+# XLAB_Resistor_R_470_±5%_1608m
+#
+DEF XLAB_Resistor_R_470_±5%_1608m R 0 0 N Y 1 F N
+F0 "R" 125 100 50 H V L CNN
+F1 "XLAB_Resistor_R_470_±5%_1608m" 550 150 50 H I L CNN
+F2 "R_0603_1608Metric" 550 50 50 H I L CNN
+F3 "datasheet_here" 550 -50 50 H I L CNN
+F4 "Resistor SMD 470 ±5% 1608 0.125W" 550 -150 50 H I L CNN "Description"
+F5 "0.125W" 550 -250 50 H I L CNN "Power Rating"
+F6 "±5%" 550 -350 50 H I L CNN "Tolerance"
+DRAW
+T 0 175 0 50 0 0 0 470 Normal 0 C C
+S 50 50 300 -50 0 1 0 N
+X ~ 1 0 0 50 R 50 50 0 0 P
+X ~ 2 350 0 50 L 50 50 0 0 P
+ENDDRAW
+ENDDEF
+#
+# XLAB_Resistor_R_470k_±1%_1608m
+#
+DEF XLAB_Resistor_R_470k_±1%_1608m R 0 0 N Y 1 F N
+F0 "R" 125 100 50 H V L CNN
+F1 "XLAB_Resistor_R_470k_±1%_1608m" 550 150 50 H I L CNN
+F2 "R_0603_1608Metric" 550 50 50 H I L CNN
+F3 "datasheet_here" 550 -50 50 H I L CNN
+F4 "Resistor SMD 470k ±1% 1608 0.1W" 550 -150 50 H I L CNN "Description"
+F5 "0.1W" 550 -250 50 H I L CNN "Power Rating"
+F6 "±1%" 550 -350 50 H I L CNN "Tolerance"
+DRAW
+T 0 175 0 50 0 0 0 470k Normal 0 C C
+S 50 50 300 -50 0 1 0 N
+X ~ 1 0 0 50 R 50 50 0 0 P
+X ~ 2 350 0 50 L 50 50 0 0 P
 ENDDRAW
 ENDDEF
 #
