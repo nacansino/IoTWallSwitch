@@ -1,4 +1,5 @@
 (sym_lib_table
   (lib (name XLAB_Resistor)(type Legacy)(uri ${KIPRJMOD}/xlab_kicad_libs/XLAB_Resistor.lib)(options "")(descr ""))
   (lib (name XLAB_IC)(type Legacy)(uri ${KIPRJMOD}/xlab_kicad_libs/XLAB_IC.lib)(options "")(descr ""))
+  (lib (name XLAB_Block)(type Legacy)(uri ${KIPRJMOD}/xlab_kicad_libs/XLAB_Block.lib)(options "")(descr ""))
 )
