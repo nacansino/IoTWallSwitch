@@ -15,17 +15,6 @@ Comment3 ""
 Comment4 ""
 $EndDescr
 $Comp
-L Converter_ACDC:HLK-PM01 PS1
-U 1 1 5EC92670
-P 2800 1100
-F 0 "PS1" H 2800 1425 50  0000 C CNN
-F 1 "HLK-PM01" H 2800 1334 50  0000 C CNN
-F 2 "Converter_ACDC:Converter_ACDC_HiLink_HLK-PMxx" H 2800 800 50  0001 C CNN
-F 3 "http://www.hlktech.net/product_detail.php?ProId=54" H 3200 750 50  0001 C CNN
-	1    2800 1100
-	1    0    0    -1  
-$EndComp
-$Comp
 L RF_Module:ESP32-WROOM-32D U2
 U 1 1 5EC92A45
 P 5050 6050
@@ -34,17 +23,6 @@ F 1 "ESP32-WROOM-32D" H 5050 7540 50  0000 C CNN
 F 2 "RF_Module:ESP32-WROOM-32" H 5050 4550 50  0001 C CNN
 F 3 "https://www.espressif.com/sites/default/files/documentation/esp32-wroom-32d_esp32-wroom-32u_datasheet_en.pdf" H 4750 6100 50  0001 C CNN
 	1    5050 6050
-	1    0    0    -1  
-$EndComp
-$Comp
-L Relay:SANYOU_SRD_Form_C K1
-U 1 1 5EC90E60
-P 8100 1350
-F 0 "K1" H 8530 1396 50  0000 L CNN
-F 1 "SANYOU_SRD_Form_C" H 8530 1305 50  0000 L CNN
-F 2 "Relay_THT:Relay_SPDT_SANYOU_SRD_Series_Form_C" H 8550 1300 50  0001 L CNN
-F 3 "http://www.sanyourelay.ca/public/products/pdf/SRD.pdf" H 8100 1350 50  0001 C CNN
-	1    8100 1350
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -90,25 +68,6 @@ F 2 "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal" H 7300 1175 50  0001 C CNN
 F 3 "https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf" H 7300 1350 50  0001 C CNN
 	1    7300 1350
 	0    1    1    0   
-$EndComp
-$Comp
-L SamacSys_Parts:HLW8012 IC1
-U 1 1 5ECA7EDE
-P 8350 4600
-F 0 "IC1" H 8850 4865 50  0000 C CNN
-F 1 "HLW8012" H 8850 4774 50  0000 C CNN
-F 2 "SOIC127P600X170-8N" H 9200 4700 50  0001 L CNN
-F 3 "https://www.datasheet4u.com/datasheet-parts/HLW8012-datasheet.php?id=1157559" H 9200 4600 50  0001 L CNN
-F 4 "single phase energy monitor chip" H 9200 4500 50  0001 L CNN "Description"
-F 5 "1.7" H 9200 4400 50  0001 L CNN "Height"
-F 6 "Hilwi" H 9200 4300 50  0001 L CNN "Manufacturer_Name"
-F 7 "HLW8012" H 9200 4200 50  0001 L CNN "Manufacturer_Part_Number"
-F 8 "" H 9200 4100 50  0001 L CNN "Mouser Part Number"
-F 9 "" H 9200 4000 50  0001 L CNN "Mouser Price/Stock"
-F 10 "" H 9200 3900 50  0001 L CNN "RS Part Number"
-F 11 "" H 9200 3800 50  0001 L CNN "RS Price/Stock"
-	1    8350 4600
-	1    0    0    -1  
 $EndComp
 Wire Wire Line
 	7300 1200 7300 900 
@@ -1293,25 +1252,6 @@ Wire Wire Line
 	1350 6800 1450 6800
 Wire Wire Line
 	1450 6800 1450 6600
-$Comp
-L SamacSys_Parts:BC817DPN Q1
-U 1 1 5F268BD8
-P 1800 6600
-F 0 "Q1" H 1772 6304 50  0000 R CNN
-F 1 "BC817DPN" H 1772 6395 50  0000 R CNN
-F 2 "SOT95P275X110-6N" H 2600 6550 50  0001 L CNN
-F 3 "https://assets.nexperia.com/documents/data-sheet/BC817DPN.pdf" H 2600 6450 50  0001 L CNN
-F 4 "Nexperia BC817DPN Dual NPN+PNP Transistor, 500 mA, 45 V, 6-Pin SOT-457" H 2600 6350 50  0001 L CNN "Description"
-F 5 "1.1" H 2600 6250 50  0001 L CNN "Height"
-F 6 "Nexperia" H 2600 6150 50  0001 L CNN "Manufacturer_Name"
-F 7 "BC817DPN" H 2600 6050 50  0001 L CNN "Manufacturer_Part_Number"
-F 8 "BC817DPN" H 2600 5950 50  0001 L CNN "Arrow Part Number"
-F 9 "" H 2600 5850 50  0001 L CNN "Arrow Price/Stock"
-F 10 "N/A" H 2600 5750 50  0001 L CNN "Mouser Part Number"
-F 11 "https://www.mouser.com/Search/Refine.aspx?Keyword=N%2FA" H 2600 5650 50  0001 L CNN "Mouser Price/Stock"
-	1    1800 6600
-	-1   0    0    1   
-$EndComp
 Text Label 700  6800 0    50   ~ 0
 RTS
 Text Label 700  5900 0    50   ~ 0
@@ -1618,4 +1558,59 @@ Wire Wire Line
 	6700 900  7300 900 
 Text Notes 650  2450 0    100  ~ 0
 To add:\n1. Capacitive Touch / Manual Switch\n2. Footprint for discrete components
+$Comp
+L XLAB_IC:HLW8012 IC1
+U 1 1 5EFEE691
+P 8350 4600
+F 0 "IC1" H 8850 4865 50  0000 C CNN
+F 1 "HLW8012" H 8850 4774 50  0000 C CNN
+F 2 "SOIC127P600X170-8N" H 9200 4700 50  0001 L CNN
+F 3 "https://www.datasheet4u.com/datasheet-parts/HLW8012-datasheet.php?id=1157559" H 9200 4600 50  0001 L CNN
+F 4 "single phase energy monitor chip" H 9200 4500 50  0001 L CNN "Description"
+F 5 "1.7" H 9200 4400 50  0001 L CNN "Height"
+F 6 "Hilwi" H 9200 4300 50  0001 L CNN "Manufacturer_Name"
+F 7 "HLW8012" H 9200 4200 50  0001 L CNN "Manufacturer_Part_Number"
+	1    8350 4600
+	1    0    0    -1  
+$EndComp
+$Comp
+L XLAB_IC:BC817DPN Q1
+U 1 1 5EFF0E81
+P 1100 6100
+F 0 "Q1" H 1828 5896 50  0000 L CNN
+F 1 "BC817DPN" H 1828 5805 50  0000 L CNN
+F 2 "SOT95P275X110-6N" H 1900 6050 50  0001 L CNN
+F 3 "https://assets.nexperia.com/documents/data-sheet/BC817DPN.pdf" H 1900 5950 50  0001 L CNN
+F 4 "Nexperia BC817DPN Dual NPN+PNP Transistor, 500 mA, 45 V, 6-Pin SOT-457" H 1900 5850 50  0001 L CNN "Description"
+F 5 "1.1" H 1900 5750 50  0001 L CNN "Height"
+F 6 "Nexperia" H 1900 5650 50  0001 L CNN "Manufacturer_Name"
+F 7 "BC817DPN" H 1900 5550 50  0001 L CNN "Manufacturer_Part_Number"
+F 8 "BC817DPN" H 1900 5450 50  0001 L CNN "Arrow Part Number"
+F 9 "N/A" H 1900 5250 50  0001 L CNN "Mouser Part Number"
+F 10 "https://www.mouser.com/Search/Refine.aspx?Keyword=N%2FA" H 1900 5150 50  0001 L CNN "Mouser Price/Stock"
+	1    1100 6100
+	1    0    0    -1  
+$EndComp
+$Comp
+L XLAB_Block:HLK-PM01 PS1
+U 1 1 5F019A58
+P 2800 1100
+F 0 "PS1" H 2800 1425 50  0000 C CNN
+F 1 "HLK-PM01" H 2800 1334 50  0000 C CNN
+F 2 "XLAB_Block:Converter_ACDC_HiLink_HLK-PMxx" H 2800 800 50  0001 C CNN
+F 3 "http://www.hlktech.net/product_detail.php?ProId=54" H 3200 750 50  0001 C CNN
+	1    2800 1100
+	1    0    0    -1  
+$EndComp
+$Comp
+L XLAB_Block:SANYOU_SRD_Form_C K1
+U 1 1 5F0765D9
+P 8100 1350
+F 0 "K1" H 8530 1396 50  0000 L CNN
+F 1 "SANYOU_SRD_Form_C" H 8530 1305 50  0000 L CNN
+F 2 "XLAB_Block:Relay_SPDT_SANYOU_SRD_Series_Form_C" H 8550 1300 50  0001 L CNN
+F 3 "http://www.sanyourelay.ca/public/products/pdf/SRD.pdf" H 8100 1350 50  0001 C CNN
+	1    8100 1350
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC
