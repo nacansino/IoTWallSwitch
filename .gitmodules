@@ -1,0 +1,3 @@
+[submodule "wallswitch_schematic_alpha/xlab_kicad_libs"]
+	path = wallswitch_schematic_alpha/xlab_kicad_libs
+	url = git@github.com:nacansino/xlab_kicad_libs.git

@@ -1,3 +1,5 @@
 (fp_lib_table
-  (lib (name SamacSys_Parts)(type KiCad)(uri G:/IoTWallSwitch/wallswitch_schematic_alpha/libs/SamacSys_Parts.pretty)(options "")(descr ""))
+  (lib (name XLAB_Resistor)(type KiCad)(uri ${KIPRJMOD}/xlab_kicad_libs/XLAB_Resistor.pretty)(options "")(descr ""))
+  (lib (name XLAB_IC)(type KiCad)(uri ${KIPRJMOD}/xlab_kicad_libs/XLAB_IC.pretty)(options "")(descr ""))
+  (lib (name XLAB_Block)(type KiCad)(uri ${KIPRJMOD}/xlab_kicad_libs/XLAB_Block.pretty)(options "")(descr ""))
 )

@@ -1,15 +1,18 @@
 EESchema-DOCLIB  Version 2.0
 #
-$CMP NE555DR
-D Single Precision Timer
-K
-F http://www.ti.com/lit/ds/symlink/ne555.pdf
+$CMP BC817DPN
+D Nexperia BC817DPN Dual NPN+PNP Transistor, 500 mA, 45 V, 6-Pin SOT-457
+F https://assets.nexperia.com/documents/data-sheet/BC817DPN.pdf
 $ENDCMP
 #
 $CMP HLW8012
 D single phase energy monitor chip
-K
 F https://www.datasheet4u.com/datasheet-parts/HLW8012-datasheet.php?id=1157559
+$ENDCMP
+#
+$CMP NE555DR
+D Single Precision Timer
+F http://www.ti.com/lit/ds/symlink/ne555.pdf
 $ENDCMP
 #
 #End Doc Library
