@@ -2,4 +2,5 @@
   (lib (name XLAB_Resistor)(type KiCad)(uri ${KIPRJMOD}/xlab_kicad_libs/XLAB_Resistor.pretty)(options "")(descr ""))
   (lib (name XLAB_IC)(type KiCad)(uri ${KIPRJMOD}/xlab_kicad_libs/XLAB_IC.pretty)(options "")(descr ""))
   (lib (name XLAB_Block)(type KiCad)(uri ${KIPRJMOD}/xlab_kicad_libs/XLAB_Block.pretty)(options "")(descr ""))
+  (lib (name Varistor)(type KiCad)(uri ${KISYSMOD}/Varistor.pretty)(options "")(descr ""))
 )
