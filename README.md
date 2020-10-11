@@ -24,3 +24,7 @@ I aim this project to be a foundation of many small projects that ran on tap pow
 - Desktop/Laptop Charger
 - Television
 - Speakers
+
+## 3D Preview
+
+![3dView](Docs/3dview.png)
