@@ -1,7 +1,7 @@
 (export (version D)
   (design
     (source G:\IoTWallSwitch\wallswitch_schematic_alpha\wallswitch_schematic_alpha.sch)
-    (date "10/11/2020 4:53:08 PM")
+    (date "10/24/2020 5:50:53 PM")
     (tool "Eeschema (5.1.5)-3")
     (sheet (number 1) (name /) (tstamps /)
       (title_block
@@ -491,20 +491,6 @@
       (libsource (lib Connector_Generic) (part Conn_01x06) (description "Generic connector, single row, 01x06, script generated (kicad-library-utils/schlib/autogen/connector/)"))
       (sheetpath (names /) (tstamps /))
       (tstamp 5F4B8062))
-    (comp (ref H1)
-      (value MountingHole3.5mm)
-      (footprint MountingHole:MountingHole_3.5mm)
-      (datasheet ~)
-      (libsource (lib Mechanical) (part MountingHole) (description "Mounting Hole without connection"))
-      (sheetpath (names /) (tstamps /))
-      (tstamp 5F9F9252))
-    (comp (ref H2)
-      (value MountingHole3.5mm)
-      (footprint MountingHole:MountingHole_3.5mm)
-      (datasheet ~)
-      (libsource (lib Mechanical) (part MountingHole) (description "Mounting Hole without connection"))
-      (sheetpath (names /) (tstamps /))
-      (tstamp 5FA0CC98))
     (comp (ref D3)
       (value BAT54C)
       (footprint Package_TO_SOT_SMD:SOT-23)
@@ -879,14 +865,6 @@
       (pins
         (pin (num 1) (name K) (type passive))
         (pin (num 2) (name A) (type passive))))
-    (libpart (lib Mechanical) (part MountingHole)
-      (description "Mounting Hole without connection")
-      (docs ~)
-      (footprints
-        (fp MountingHole*))
-      (fields
-        (field (name Reference) H)
-        (field (name Value) MountingHole)))
     (libpart (lib RF_Module) (part ESP32-WROOM-32)
       (aliases
         (alias ESP32-WROOM-32D))
@@ -1253,8 +1231,6 @@
       (uri "C:\\Program Files\\KiCad\\share\\kicad\\library/Device.lib"))
     (library (logical Diode)
       (uri "C:\\Program Files\\KiCad\\share\\kicad\\library/Diode.lib"))
-    (library (logical Mechanical)
-      (uri "C:\\Program Files\\KiCad\\share\\kicad\\library/Mechanical.lib"))
     (library (logical RF_Module)
       (uri "C:\\Program Files\\KiCad\\share\\kicad\\library/RF_Module.lib"))
     (library (logical Regulator_Linear)

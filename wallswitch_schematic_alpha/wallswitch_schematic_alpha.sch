@@ -1417,28 +1417,6 @@ NoConn ~ 7400 5250
 Wire Wire Line
 	7500 5250 7400 5250
 $Comp
-L Mechanical:MountingHole H1
-U 1 1 5F9F9252
-P 9250 1900
-F 0 "H1" H 9350 1946 50  0000 L CNN
-F 1 "MountingHole3.5mm" H 9350 1855 50  0000 L CNN
-F 2 "MountingHole:MountingHole_3.5mm" H 9250 1900 50  0001 C CNN
-F 3 "~" H 9250 1900 50  0001 C CNN
-	1    9250 1900
-	1    0    0    -1  
-$EndComp
-$Comp
-L Mechanical:MountingHole H2
-U 1 1 5FA0CC98
-P 9250 2150
-F 0 "H2" H 9350 2196 50  0000 L CNN
-F 1 "MountingHole3.5mm" H 9350 2105 50  0000 L CNN
-F 2 "MountingHole:MountingHole_3.5mm" H 9250 2150 50  0001 C CNN
-F 3 "~" H 9250 2150 50  0001 C CNN
-	1    9250 2150
-	1    0    0    -1  
-$EndComp
-$Comp
 L power:GND #PWR0129
 U 1 1 5F39E4FF
 P 2900 1750
